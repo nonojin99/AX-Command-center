@@ -1,0 +1,25 @@
+{
+  "baseline_days": 10,
+  "alert_k": 3.0,
+  "watch_k": 2.0,
+  "metrics": {
+    "metric_a": {"label": "지표 A (가상: 불량률)", "unit": "%", "direction": "high_bad"},
+    "metric_b": {"label": "지표 B (가상: 수율)", "unit": "%", "direction": "low_bad"}
+  },
+  "alert": {
+    "mode": "shadow",
+    "channels": ["webhook", "mail"],
+    "webhook_env": "ALERT_WEBHOOK_URL",
+    "mail": {
+      "smtp_host": "<사내 SMTP 서버>",
+      "smtp_port": 25,
+      "starttls": false,
+      "from": "<보내는 주소>",
+      "to": ["<받는 주소1>", "<받는 주소2>"],
+      "user_env": "SMTP_USER",
+      "password_env": "SMTP_PASSWORD"
+    },
+    "portal_url": "<포털 요약 페이지 주소>",
+    "owner": "<담당자>"
+  }
+}
