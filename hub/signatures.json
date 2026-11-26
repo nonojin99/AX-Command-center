@@ -1,0 +1,9 @@
+{
+  "_comment": "예시(가상). 실제 파트 재질과 검출 원소 대응은 엔지니어가 교체해야 한다. 이 표가 불량 파트 추정의 핵심 근거다.",
+  "element_to_part_type": {
+    "Al": ["LINER"],
+    "Fe": ["ELECTRODE"],
+    "Y": ["SHOWERHEAD"],
+    "C": ["O_RING"]
+  }
+}

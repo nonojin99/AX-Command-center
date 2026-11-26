@@ -11,6 +11,7 @@
 | `templates/` | 머리말·공용 양식 |
 | `defect/` | 불량 분석 업무 패키지 (메일 입력 스키마, 판단 기준표, 분석 패키지, 쿼리 자리) |
 | `monitoring/` | 정기 모니터링 요약 (config·샘플 csv, 이상 판정은 `tools/monitoring_report.py`) |
+| `hub/` | 분석 허브(Streamlit): 여러 DB 조인 분석·차트·보고서 (가상 데이터 골격, 실제 BDQ 연결 자리) |
 | `portal/` | 사내 포털(Confluence/HTML) 게시용 홈 구성·가이드·요청 양식 |
 | `.claude/skills/` | 팀 공용 Claude 스킬(명령어). 저장소를 받으면 모두 같이 쓴다 |
 
